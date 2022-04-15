@@ -1,0 +1,36 @@
+{
+  "name": "nxc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "bin/index.js",
+  "bin": {
+    "nxc": "bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-burelo/nxc.git"
+  },
+  "author": {
+    "name": "Carlos Burelo",
+    "email": "carlos-burelo@users.noreply.github.com",
+    "url": "https://github.com/carlos-burelo"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cli-handler": "^0.0.5",
+    "pascalcase": "^2.0.0",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "@types/pascalcase": "^1.0.1",
+    "@types/which": "^2.0.1"
+  }
+}

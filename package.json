@@ -1,6 +1,6 @@
 {
-  "name": "nxc",
-  "version": "1.0.0",
+  "name": "nxc-app",
+  "version": "1.0.4",
   "license": "MIT",
   "type": "module",
   "main": "bin/index.js",
@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "chalk": "^5.0.1",
-    "cli-handler": "^0.0.5",
+    "cli-handler": "^0.0.7",
+    "ora": "^6.1.0",
     "pascalcase": "^2.0.0",
     "which": "^2.0.2"
   },

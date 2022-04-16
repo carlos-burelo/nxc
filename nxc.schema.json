@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "styles": {
+      "type": "string",
+      "enum": ["css", "scss", "less"]
+    },
+    "withStyles": {
+      "type": "boolean"
+    },
+    "relativePaths": {
+      "type": "boolean"
+    },
+    "generateProps": {
+      "type": "boolean"
+    }
+  }
+}

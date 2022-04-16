@@ -1,0 +1,6 @@
+{
+  "styles": "css",
+  "withStyles": true,
+  "relativePaths": true,
+  "generateProps": true
+}
